@@ -11,8 +11,8 @@ class List extends Component {
       },
       {
         id: 1,
-        name: 'Second',
-        path: 'Second',
+        name: 'Style Examples',
+        path: 'StyleScreen',
       },
       {
         id: 2,

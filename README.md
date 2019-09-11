@@ -9,3 +9,6 @@ Setup Master Page/Project Layout
 
 ## Part 3
 Creating Text
+
+## Part 3
+Using Styles
