@@ -12,3 +12,6 @@ Creating Text
 
 ## Part 3
 Using Styles
+
+## Part 3
+Adding Buttons
