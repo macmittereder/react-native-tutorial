@@ -16,8 +16,8 @@ class List extends Component {
       },
       {
         id: 2,
-        name: 'Third',
-        path: 'Third',
+        name: 'Button Examples',
+        path: 'ButtonScreen',
       },
     ],
   };
