@@ -6,8 +6,8 @@ class List extends Component {
     names: [
       {
         id: 0,
-        name: 'First',
-        path: 'First',
+        name: 'Text Examples',
+        path: 'TextScreen',
       },
       {
         id: 1,
@@ -26,6 +26,10 @@ class List extends Component {
     title: 'Main Page',
   };
 
+  openView = path => {
+    this.props.navigation.navigate(path);
+  };
+
   render() {
     return (
       <View>
@@ -33,7 +37,7 @@ class List extends Component {
           <TouchableOpacity
             key={item.id}
             style={styles.listContainer}
-            onPress={() => alert(item.name)}>
+            onPress={() => this.openView(item.path)}>
             <Text style={styles.text}>{item.name}</Text>
           </TouchableOpacity>
         ))}
